@@ -16,3 +16,16 @@ header, .post:not(:last-child) {
   color: #065b83;
   text-decoration: underline;
 }
+
+.comment-form input{
+  width: 80vw;
+  height: 50px;
+}
+
+.comment-form button {
+  height: 50px;
+}
+
+.comment-form button:hover {
+  cursor: pointer;
+}
