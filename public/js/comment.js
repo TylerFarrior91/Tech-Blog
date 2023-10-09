@@ -15,8 +15,7 @@ const createComment = async (event) => {
       });
   
       if (response.ok) {
-        //document.location.reload();
-        console.log(response);
+        document.location.reload();
       } else {
         alert('Failed to create comment');
       }

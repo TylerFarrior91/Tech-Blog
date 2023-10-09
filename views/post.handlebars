@@ -9,9 +9,10 @@
 
 <div class="comment-form">
   <h2>Comments</h2>
-  {{!-- {{#each}}
-  COMMENTS GO HERE
-  {{/each}} --}}
+  {{#each comments}}
+  <p>{{commentBody}}</p>
+  {{/each}}
+  
   <input class="commentInput"  placeholder="Comment..."/>
   <button class="commentBtn">Submit</button>
 </div>
